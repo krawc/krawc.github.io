@@ -6,6 +6,8 @@ body {
     line-height: 24px;
     display: inline-block;
     width: 100vw;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .main-link {
@@ -37,4 +39,11 @@ body {
 
 .ai {
     color: #666;
+}
+
+#about {
+    display: none;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
 }
